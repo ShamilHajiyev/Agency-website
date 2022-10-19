@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 6rem;
+    height: 100%;
+}
+
+#Header {
+    background-color: brown;
+    position: fixed;
+    width: 100%;
+    padding: 1.3rem 6rem 1rem;
+}
+
+#Header .left {
+    float: left;
+    padding-left: 0rem 4rem;
+    overflow: auto;
+    width: 10%;
+}
+
+#Header .right {
+    overflow: auto;
+    float: right;
+}
+
+#Header .right a {
+    color: aliceblue;
+    text-transform: uppercase;
+    margin-left: 13px;
+}
+
+#welcome {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding-top: 4rem;
+}
+
+.welcome-all {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-all>h3 {
+    font-size: 34px;
+    color: white;
+    font-style: italic;
+}
+
+.welcome-all>h1 {
+    font-size: 70px;
+    color: white;
+    padding: 1rem 0;
+    font-weight: 900;
+}
+
+.welcome-all>a {
+    color: white;
+    background-color: #FFC800;
+    padding: 20px 30px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.welcome-all>a:hover {
+    background-color: #af8e17;
+}
+
+.services-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-all>h1 {
+    color: #212529;
+    font-size: 36px;
+    padding-top: 5rem;
+}
+
+.services-all>p {
+    color: #212529;
+    font-size: 20px;
+    font-style: italic;
+    padding: 1rem 0;
+}
+
+.services-all>.offers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-all>.offers>.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    padding: 3rem 0;
+}
+
+.services-all>.offers>.box>.icon-container {
+    color: white;
+    background-color: #FFC800;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+}
+
+.services-all>.offers>.box i {
+    font-size: 54px;
+}
+
+.services-all>.offers>.box h3 {
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.services-all>.offers>.box p {
+    font-size: 18px;
+    color: #35383b;
+    text-align: center;
+    line-height: 25px;
+}
+
+#portfolio {
+    background-color: #F8F9FA;
+}
+
+.portfolio-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-all>h1 {
+    color: #212529;
+    font-size: 36px;
+    padding-top: 5rem;
+}
+
+.portfolio-all>p {
+    color: #212529;
+    font-size: 20px;
+    font-style: italic;
+    padding: 1rem 0;
+}
+
+.portfolio-all>.box-all {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 35px 0;
+}
+
+.portfolio-all .box {
+    width: 30%;
+    background-color: white;
+    margin: 10px 0;
+}
+
+.portfolio-all .box * {
+    text-align: center;
+}
+
+.portfolio-all .box>h1 {
+    color: #212529;
+    font-size: 28px;
+    padding-top: 15px;
+}
+
+.portfolio-all .box>h3 {
+    color: #555759;
+    font-size: 20px;
+    font-style: italic;
+    padding-bottom: 12px;
+}
+
+.portfolio-all .box img {
+    width: 100%;
+    cursor: pointer;
+}
+
+#team {
+    background-color: #F8F9FA;
+}
+
+.team-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-all>h1 {
+    color: #212529;
+    font-size: 36px;
+    padding-top: 5rem;
+}
+
+.team-all>p {
+    color: #212529;
+    font-size: 20px;
+    font-style: italic;
+    padding: 1rem 0;
+}
+
+.team-all>.members {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.team-all>.members>.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    padding: 3rem 0;
+}
+
+.team-all>.members>.box>.image-container {
+    background-color: #DFE0E1;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    padding: 8px;
+}
+
+.team-all>.members>.box img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.team-all>.members>.box h3 {
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.team-all>.members>.box p {
+    font-size: 18px;
+    color: #35383b;
+    text-align: center;
+    line-height: 25px;
+}
+
+.team-all>.members>.box .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    padding: 20px 0;
+}
+
+.team-all>.members>.box .links .icon-container {
+    color: white;
+    background-color: #212529;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.team-all>.members>.box .links i {
+    font-size: 13px;
+}
+
+.team-all>.team-footer {
+    width: 65%;
+    text-align: center;
+    font-style: normal;
+    color: #555759;
+}
+
+.logos-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.logos-all .logo {
+    width: 16%;
+    cursor: pointer;
+}
+
+#contact {
+    background: #212529 url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+}
+
+.contact-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 75px;
+}
+
+.contact-all>h1 {
+    color: white;
+    font-size: 40px;
+    padding-top: 5rem;
+}
+
+.contact-all>p {
+    color: #64747b;
+    font-size: 20px;
+    font-style: italic;
+    padding: 1rem 0;
+}
+
+.contact-all>form {
+    width: 100%;
+    text-align: center;
+}
+
+.contact-all>form .form-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.contact-all>form .form-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 49%;
+}
+
+.contact-all>form .form-right {
+    width: 49%;
+}
+
+.contact-all>form .form-right>textarea {
+    width: 100%;
+    padding: 25px 25px;
+    font-size: 16px;
+}
+
+.contact-all>form button {
+    color: white;
+    background-color: #FFC800;
+    padding: 25px 45px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.contact-all input {
+    height: 27%;
+    padding: 0px 25px;
+    font-size: 16px;
+}
+
+.contact-all input,
+.contact-all textarea,
+.contact-all button {
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+
+.contact-all *::placeholder {
+    color: #aab4bf;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#footer {
+    padding: 25px 0;
+}
+
+.footer-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-all>p {
+    color: #555759;
+    letter-spacing: 1px;
+    width: 18%;
+}
+
+.footer-all .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12%;
+}
+
+.footer-all .social .icon-container {
+    color: white;
+    background-color: #212529;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.footer-all .social i {
+    font-size: 15px;
+}
+
+.footer-all .links {
+    width: 18%;
+    display: flex;
+    justify-content: space-around;
+}
